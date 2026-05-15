@@ -1,0 +1,6 @@
+# About Me
+Enterprise Automation Architect with 15 years of IT experience, including 8+ years delivering intelligent automation solutions across multinational enterprise environments in EMEA. 
+Specialized in scaling and stabilizing automation ecosystems through RPA architecture, workflow orchestration, systems integration, operational governance, and AI-assisted automation workflows.
+
+Experienced leading enterprise initiatives involving high-complexity process automation, intelligent document processing, ML-integrated workflows, and modernization strategies using platforms such as UiPath, WorkFusion, Apache Airflow, n8n, Azure DevOps, and cloud-native technologies.
+Strong background collaborating with technical and operational stakeholders to deliver scalable, reliable, and business-aligned automation solutions.

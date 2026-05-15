@@ -1,0 +1,26 @@
+[
+  {
+    "title": "About Me",
+    "type": "text-block",
+    "text-resource": "./assets/data/posts/about-me.md"
+},
+  {
+    "title": "Menu",
+    "type": "menu-items",
+    "values": [{
+        "title": "About Me",
+        "ref": "#",
+        "enabled": true
+    },
+    {
+        "title": "Success Stories",
+        "ref": "#",
+        "enabled": true
+    },
+    {
+        "title": "Contact",
+        "ref": "#",
+        "enabled": false
+    }]
+  }
+]
