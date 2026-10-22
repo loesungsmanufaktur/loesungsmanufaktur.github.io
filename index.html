@@ -4,40 +4,106 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Edwin B - Portfolio</title>
+  <title>Portfolio</title>
+  <link rel="icon" href="images/favicon.png">
+
+  <!-- Bootstrap 5.3.8 (styling) and Bootstrap Icons -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- Our own styles (colors come from content/config.md) -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Edwin B - Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand fw-semibold" href="#top" id="site-title">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links"
+        aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto" id="menu-container">
-          <!-- Menu content will be loaded here -->
+      <div class="collapse navbar-collapse" id="nav-links">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <br/>
-  <div class="container">
-    <div class="row">
-      <div class="col-12" id="content-container">
-      <!-- Content will be loaded here -->
+
+  <!-- ========== HERO (filled from content/personal-info.md) ========== -->
+  <header id="top" class="hero py-5">
+    <div class="container py-md-4">
+      <div class="row align-items-center g-4">
+        <div class="col-md-auto text-center">
+          <img id="photo" class="hero-photo rounded-circle" src="" alt="Profile photo" hidden>
+        </div>
+        <div class="col-md text-center text-md-start">
+          <h1 id="name" class="display-5 fw-bold mb-1"></h1>
+          <p id="role" class="lead mb-2"></p>
+          <p id="location" class="mb-3 small"></p>
+          <div id="contact-links" class="d-flex gap-2 justify-content-center justify-content-md-start flex-wrap"></div>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="assets/js/content-load.js"></script>
+  </header>
+
+  <main>
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div id="about-content" class="about"></div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="py-5 section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div id="skills-intro"></div>
+        <div id="skills-content" class="row g-3"></div>
+      </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS ========== -->
+    <section id="certifications" class="py-5">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div id="certifications-intro"></div>
+        <div id="certifications-content" class="row g-3"></div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="py-5 section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div id="projects-intro"></div>
+        <div id="projects-content" class="row g-4"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4 text-center small">
+    <div class="container" id="footer-text"></div>
+  </footer>
+
+  <!-- Libraries: Bootstrap JS, Markdown parser, HTML sanitizer -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script type="text/javascript" src="assets/js/purify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@18.1.0/lib/marked.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.4.16/dist/purify.min.js"></script>
+
+  <!-- Loads the Markdown files from /content and builds the page -->
+  <script src="js/main.js"></script>
 </body>
 
 </html>
