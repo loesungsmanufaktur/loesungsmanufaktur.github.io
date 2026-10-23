@@ -107,6 +107,35 @@ section { scroll-margin-top: 56px; } /* keeps titles visible under the sticky na
   font-weight: 500;
 }
 
+/* ---------- Projects ---------- */
+.project-card { transition: transform .15s ease, box-shadow .15s ease; }
+.project-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 .5rem 1.25rem color-mix(in srgb, var(--color-text) 15%, transparent);
+}
+.project-cover {
+  height: 170px;
+  object-fit: cover;
+  background-color: var(--color-bg);
+}
+.read-more {
+  color: var(--color-highlight);
+  font-weight: 600;
+  font-size: .9rem;
+}
+
+/* Project detail page */
+.hero .lead { color: var(--color-bg); }
+.project-body { max-width: 860px; }
+.project-body h2 { font-size: 1.5rem; margin-top: 2rem; }
+.project-body img,
+.project-hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: .5rem;
+  border: 1px solid var(--color-border);
+}
+
 /* ---------- Footer ---------- */
 footer {
   background-color: var(--color-text);

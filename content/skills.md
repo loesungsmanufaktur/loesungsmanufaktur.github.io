@@ -8,13 +8,12 @@
 # ============================================================
 ---
 
-Currently, I am proficient in, but not limited to, the following tools and languages.
 
 ## Workflow Automation
-n8n, Make, UiPath, Power Platform, Nintex, Apache Airflow
+n8n, UiPath, Power Automate, Workfusion, Apache Airflow
 
 ## AI / LLM Models
-GPT, Claude
+GPT, Claude, Sci-Kit Learn, Pandas, Classification, Clustering, Regresion
 
 ## Programming Languages
 Python, Java, C#, JavaScript
@@ -23,10 +22,10 @@ Python, Java, C#, JavaScript
 SQL Server, MySQL, PostgreSQL
 
 ## NoSQL
-MongoDB, DynamoDB
+MongoDB, DynamoDB, Firebase
 
 ## Messaging / Streaming
-RabbitMQ
+RabbitMQ, Kafka
 
 ## Operating Systems
 Windows, Linux
@@ -35,4 +34,4 @@ Windows, Linux
 Git / GitHub, Azure DevOps, Docker
 
 ## Cloud
-AWS, Azure
+AWS, GCP

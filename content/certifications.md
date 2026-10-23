@@ -14,7 +14,7 @@
 
 [View credential](https://www.uipath.com/)
 
-## Microsoft Certified: Azure Fundamentals
+## AWS: Certified Cloud Practitioner
 **Issuer:** Microsoft · **Year:** 2022
 
 [View credential](https://learn.microsoft.com/)

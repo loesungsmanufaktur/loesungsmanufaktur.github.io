@@ -6,13 +6,13 @@
 #  Everything below the second "---" is regular Markdown and
 #  is shown in the "About Me" section.
 # ============================================================
-name: Edwin Barahona
+name: Edwin Barahona Morales
 role: Enterprise Automation Architect
 location: EMEA
 # Path to your photo (relative to the site root)
 photo: images/avatar.png
 email:
-linkedin:
+linkedin: https://www.linkedin.com/in/edwin-b-a2332465/
 github: https://github.com/loesungsmanufaktur
 ---
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+  <!-- Placeholder image: replace with your own screenshot or diagram -->
+  <rect width="800" height="400" fill="#F6F3EC"/>
+  <g font-size="22" text-anchor="middle">
+    <rect x="40" y="150" width="180" height="100" rx="12" fill="#8A9E7E"/>
+    <text x="130" y="207" fill="#3B2340">Documents</text>
+    <rect x="310" y="150" width="180" height="100" rx="12" fill="#2E4C9A"/>
+    <text x="400" y="207" fill="#F6F3EC">OCR + ML</text>
+    <rect x="580" y="150" width="180" height="100" rx="12" fill="#C0602E"/>
+    <text x="670" y="207" fill="#ffffff">RPA / ERP</text>
+  </g>
+  <g stroke="#3B2340" stroke-width="4">
+    <line x1="225" y1="200" x2="300" y2="200"/>
+    <line x1="495" y1="200" x2="570" y2="200"/>
+  </g>
+</svg>

@@ -1,29 +1,20 @@
 ---
 # ============================================================
-#  PROJECTS
-#  Each "## Heading" below becomes one project card.
-#  Optional: start the text with a line "Tags: a, b, c" to
-#  show technology badges on the card.
-#  Everything else is regular Markdown (text, lists, links).
-#  The projects below are PLACEHOLDERS - replace them with
-#  your own success stories.
+#  PROJECTS LIST
+#  Each project lives in its own folder inside /projects:
+#
+#    projects/
+#      idp-platform/
+#        index.md        <- the project text (see the examples)
+#        diagram.svg     <- any images used by that project
+#
+#  List below the folder names of the projects you want to
+#  show, one per line, in the order they should appear.
+#  Remove a line to hide a project without deleting it.
+#  Text above the list (optional) is shown as an intro.
 # ============================================================
 ---
 
-## Intelligent Document Processing Platform
-Tags: UiPath, Python, Azure
-
-Designed and rolled out an automation platform that extracts and validates data from invoices and contracts, cutting manual processing time significantly.
-
-- Role: Solution Architect
-- Scope: multinational, EMEA
-
-## Workflow Orchestration Modernization
-Tags: Apache Airflow, Docker, Azure DevOps
-
-Migrated legacy scheduled jobs to a centrally orchestrated, monitored pipeline with CI/CD and clear operational governance.
-
-## AI-Assisted Support Automation
-Tags: n8n, Claude, PostgreSQL
-
-Built workflows that classify incoming requests with an LLM and route them to the right team, with a human in the loop for edge cases.
+- idp-platform
+- coe-modernization
+- ai-support-automation
