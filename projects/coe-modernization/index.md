@@ -4,7 +4,7 @@
 title: Workflow Orchestration Modernization
 summary: Optimized legacy workflows, defined orchestration mechanism to enable multiple input channels and load balancing, organized and standardized development practices by leveraging DevOps principles.
 tags: UiPath, SQL Server, Azure DevOps, UiPath Apps, Git
-cover:
+cover: architecture-diagram.svg
 ---
 
 ## Context

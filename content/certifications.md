@@ -15,6 +15,9 @@
 [View credential](https://www.uipath.com/)
 
 ## AWS: Certified Cloud Practitioner
-**Issuer:** Microsoft · **Year:** 2022
+**Issuer:** Amazon Web Services · **Year:** 2022
 
 [View credential](https://learn.microsoft.com/)
+
+## AWS: Cloud Quest - Solutions Architect
+**Issuer:** Amazon Web Services · **Year:** 2024
